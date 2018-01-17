@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+$main-color: rgb(50, 150, 0);
+$main-sub-color: rgb(40, 120, 0);
+$sub-color: rgb(125, 150, 0);
+$font-color: #333;
+
+.clearfix::before{
+  content: "";
+  display: block;
+  clear: both;
+}

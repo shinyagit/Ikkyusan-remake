@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+// ================== reserved wrap ===============
+.reserved-wrap {
+  padding: 10px;
+
+  a {
+    color: #333;
+    text-decoration: none;
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  .reserved {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-left: 80px;
+    background: -webkit-gradient(to bottom, #fff 0%, #ddd 100%);
+    background: -webkit-linear-gradient(to bottom, #fff 0%, #ddd 100%);
+    background: linear-gradient(to bottom, #fff 0%, #ddd 100%);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    p {
+      border-bottom: 1px solid #aaa;
+    }
+
+    span {
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(200, 0, 0);
+    }
+
+    .fa-reserved {
+      position: absolute;
+      top: -10px;
+      left: -5px;
+      font-size: 80px;
+      transform: rotateZ(-30deg);
+    }
+  }
+}
+
+// ================== schedule wrap ===============
+.schedule-wrap {
+  margin-bottom: 20px;
+
+  .schedule {
+    padding: 5px;
+
+    .label {
+      height: 30px;
+      padding: 0 15px;
+      font-size: 14px;
+      line-height: 30px;
+      color: #fff;
+      border-radius: 3px 3px 0 0;
+      display: inline-block;
+      background-color: $main-color;
+    }
+
+    span {
+      line-height: 1.5;
+      padding-left: 10px;
+      font-size: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      -ms-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: default;
+      border: 3px solid $main-color;
+      border-radius: 5px;
+
+      th, td {
+        font-size: 12px;
+        vertical-align: middle;
+        text-align: center;
+        padding: 4px 6px;
+      }
+
+      th {
+        border-right: 1px solid $main-color;
+        &:last-child {
+          border-right: none;
+        }
+      }
+
+      td {
+        border-top: 1px solid $main-color;
+        border-right: 1px solid $main-color;
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+}
