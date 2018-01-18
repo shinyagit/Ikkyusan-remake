@@ -139,12 +139,26 @@
   .flow-box{
     width: 200px;
     margin: 0 auto;
+
+    .headding-c {
+      z-index: 2;
+      border: none;
+      margin-bottom: -5px;
+      font-size: 18px;
+      font-weight: bold;
+      color: $main-color;
+
+      &::before {
+        font-size: 14px;
+      }
+    }
   }
 
   .flow-img {
     position: relative;
     height: 150px;
     margin: 5px auto 5px;
+    border-radius: 3px;
     background-color: rgb(180, 255, 204);
   }
 }
