@@ -137,20 +137,39 @@
   }
 
   .flow-box{
+    position: relative;
     width: 200px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
 
     .headding-c {
       z-index: 2;
       border: none;
       margin-bottom: -5px;
       font-size: 18px;
-      font-weight: bold;
       color: $main-color;
 
       &::before {
         font-size: 14px;
       }
+    }
+
+    &::after {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      font-family: FontAwesome;
+      content: "\f0d7";
+      margin: 10px 5px;
+      font-size: 60px;
+      line-height: 40px;
+      text-align: center;
+      color: $main-color;
+    }
+
+    &:last-child::after {
+      display: none;
     }
   }
 
@@ -158,7 +177,7 @@
     position: relative;
     height: 150px;
     margin: 5px auto 5px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: rgb(180, 255, 204);
   }
 }

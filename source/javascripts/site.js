@@ -8,7 +8,7 @@ $(function(){
     ]
   });
 
-  $("#intro-img-slide").vegas({
+  $("").vegas({
     transitionDuration: 5000,
     slides: [
         { src: "/images/top-page/vegas/rapama.jpg" },
