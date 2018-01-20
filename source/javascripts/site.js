@@ -8,6 +8,14 @@ $(function(){
     ]
   });
 
+  $("#about-slide").vegas({
+    delay: 6000,
+    slides: [
+        { src: "/images/top-page/vegas/shinkyu.jpg" },
+        { src: "/images/top-page/vegas/shinkyu2.jpg" }
+    ]
+  });
+
   $("").vegas({
     transitionDuration: 5000,
     slides: [

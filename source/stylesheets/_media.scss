@@ -1,1 +1,58 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+  #mobile-nav {
+    top: -60px;
+  }
+
+  #header {
+    margin-top: 0;
+    border-top: 6px solid $main-color;
+  }
+
+  #header-slide {
+    height: 500px;
+  }
+
+  .reserved-wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .schedule-wrap {
+    margin-top: 20px;
+  }
+
+  .flow .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .flow-box {
+      margin: 10px 60px 10px 30px;
+
+      &::after {
+        right: -100%;
+        left: none;
+        top: 35%;
+        transform: rotate(270deg);
+      }
+      &:nth-child(even)::after {
+        display: none;
+      }
+    }
+  }
+
+  .twitter {
+    padding: 20px 0;
+
+    .twitter-mobile {
+      display: none;
+    }
+    .twitter-pc {
+      display: flex;
+      padding: 20px 0;
+    }
+  }
+}
