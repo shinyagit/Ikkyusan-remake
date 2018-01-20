@@ -225,6 +225,71 @@
   a, iframe {
     display: block;
     box-shadow: 0 0 2px 4px #ddd;
-    border-radius: 5px;
+    border-radius: 3px;
+  }
+}
+
+
+// ========================== access section ======================
+.access {
+
+  .container {
+    padding-top: 20px;
+  }
+
+  .map {
+    margin:0 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .describe {
+      position: relative;
+      width: 300px;
+      padding: 30px 10px 10px;
+      background-color: #eee;
+      font-size: 12px;
+
+      &::before {
+        position: absolute;
+        display: block;
+        width: 150px;
+        height: 30px;
+        top: -10px;
+        left: -10px;
+        line-height: 30px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        background-color: $main-color;
+      }
+
+      &.shinonome::before {
+        content: "東雲店"
+      }
+      &.ujina::before {
+        content: "宇品店"
+      }
+
+      &::after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: -10px;
+        width: 10px;
+        height: 10px;
+        border-top: 5px solid rgb(35, 105, 0);
+  border-right: 5px solid rgb(35, 105, 0);
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+      }
+    }
+
+    iframe {
+      min-height: 200px;
+      height: auto;
+    }
   }
 }
