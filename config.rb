@@ -48,12 +48,14 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 
+  config[:root] = "/reponame"
+
   # リポジトリ名を host に設定しておく
   # こうすることで stylesheet_link_tag などで展開されるパスが
   # /test-middleman/stylesheets/normalize.css
   # のようになる
   # activate :asset_host, :host => "/your_repository_name"
-　　　　# これは必要か不明
+  # これは必要か不明
   # set :relative_links, true
 end
 
