@@ -1,4 +1,24 @@
-$(function(){
+$(document).ready(function(){
+
+  var state = false;
+  var scrollpos;
+  $("#drw-btn, #close-btn, #drw-layer").click(function(){
+    if(state == false) {
+      scrollpos = $(window).scrollTop();
+      $('body').addClass('fixed').css({'top': -scrollpos});
+      // $("#drw-btn").addClass('open');
+      state = true;
+    } else {
+      $('body').removeClass('fixed').css({'top': 0});
+      window.scrollTo( 0 , scrollpos );
+      // $("#drw-btn").removeClass('open');
+      state = false;
+    }
+    $("body").toggleClass('no-scroll');
+    $("#side-bar").toggleClass('slide-in');
+    $("#drw-layer").toggleClass('cover');
+  });
+
   // $("#header-slide").vegas({
   //   delay: 6000,
   //   transition: 'slideRight2',

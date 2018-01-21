@@ -85,3 +85,16 @@
     content: counter(number);
   }
 }
+
+// ================ headding-d =================
+.headding-d {
+  height: 40px;
+  padding: 0 20px;
+  margin: 20px 10px 20px 20px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: $main-color;
+  color: #fff;
+  border-radius: 3px;
+}

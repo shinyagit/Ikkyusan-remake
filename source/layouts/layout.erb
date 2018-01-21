@@ -21,7 +21,10 @@
   </head>
   <body>
     <%= partial "partial/header" %>
-    <%= yield %>
+    <div id="main">
+      <%= partial "partial/side-bar" %>
+      <%= yield %>
+    </div>
     <%= partial "partial/footer" %>
   </body>
 </html>
