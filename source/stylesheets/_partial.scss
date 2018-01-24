@@ -70,6 +70,12 @@
 
   p {
     text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+
+    span {
+      display: inline-block;
+    }
   }
 }
 
