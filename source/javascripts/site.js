@@ -19,14 +19,14 @@ $(document).ready(function(){
     $("#drw-layer").toggleClass('cover');
   });
 
-  // $("#header-slide").vegas({
-  //   delay: 6000,
-  //   transition: 'slideRight2',
-  //   slides: [
-  //       { src: "/images/top-page/vegas/siberian.jpg" },
-  //       { src: "/images/top-page/vegas/cat.jpg" }
-  //   ]
-  // });
+  $("#header-slide").vegas({
+    delay: 6000,
+    transition: 'slideRight2',
+    slides: [
+        { src: "/images/top-page/vegas/siberian.jpg" },
+        { src: "/images/top-page/vegas/cat.jpg" }
+    ]
+  });
 
   $("#about-slide").vegas({
     delay: 6000,

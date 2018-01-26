@@ -1,14 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 600px) {
-  #mobile-nav {
-    top: -60px;
-  }
-
-  #header {
-    margin-top: 0;
-    border-top: 6px solid $main-color;
-  }
 
   #header-slide {
     height: 500px;
@@ -88,6 +80,16 @@
 }
 
 @media screen and (min-width: 899px) {
+
+  #mobile-nav {
+    top: -60px;
+  }
+
+  #header {
+    margin-top: 0;
+    border-top: 6px solid $main-color;
+  }
+
   #main {
     display: flex;
   }
