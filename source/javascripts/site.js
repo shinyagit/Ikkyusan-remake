@@ -23,7 +23,7 @@ $(document).ready(function(){
     delay: 6000,
     transition: 'slideRight2',
     slides: [
-        { src: "/images/top-page/vegas/siberian.jpg" },
+        { src: "/images/top-page/vegas/sample.jpg" },
         { src: "/images/top-page/vegas/cat.jpg" }
     ]
   });

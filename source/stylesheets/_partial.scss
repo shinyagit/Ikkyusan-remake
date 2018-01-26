@@ -3,6 +3,7 @@
 #main {
   max-width: 1024px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 // ===================== mobile-nav =====================
@@ -53,9 +54,13 @@
   }
 }
 // =================== header =======================
+
 #header {
-  margin-top: 60px;
-  margin-bottom: 10px;
+  max-width: 1024px;
+  margin: 50px auto 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #fff;
 
   a {
     color: #333;
@@ -63,15 +68,21 @@
   }
 
   #brand {
-    font-size: 40px;
     text-align: center;
-    line-height: 80px;
+
+    p {
+      display: inline-block;
+      color: $main-color;
+      font-family: 'Sawarabi Mincho';
+      font-size: 40px;
+    }
   }
 
   p {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
+    color: $main-color;
 
     span {
       display: inline-block;
@@ -82,9 +93,10 @@
 // ================= header-slide ======================
 #header-slide {
   // TODO: 高さ調整
-  width: 100%;
+  max-width: 1024px;
   height: 300px;
-  background-color: #ddd;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 // ================= drawer ========================

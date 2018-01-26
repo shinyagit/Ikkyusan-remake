@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+#side-bar object {display: none;width: 100%;height: auto;padding: 10px;}
+
 #side-bar {
   z-index: 200;
   position: fixed;
