@@ -2,6 +2,7 @@
 
 body {
   background-image: url(/images/gplaypattern.png);
+  background-attachment: fixed;
 }
 
 #top-page {
@@ -130,10 +131,10 @@ body {
     float: right;
 
     &:after {
-    transition: all .3s;
-
+      transition: all .3s;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
       content: "\f061";
-      font-family: FontAwesome;
       margin-left: -10px;
       opacity: 0;
       vertical-align: middle;
@@ -186,18 +187,18 @@ body {
 
 // ========================= trouble section =================
 .trouble .container {
-  padding-top: 30px;
+  padding-top: 15px;
 
   p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     margin: 0 20px 15px 10px;
     padding-bottom: 5px;
     border-bottom: 2px dotted #4a4a4a;
 
     span {
-      font-size: 1.5em;
-      color: $attention-color;
+      font-size: inherit;
+      font-size: 20px;
     }
   }
 }
@@ -292,10 +293,10 @@ body {
       float: right;
 
       &:after {
-      transition: all .3s;
-
+        transition: all .3s;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
         content: "\f061";
-        font-family: FontAwesome;
         margin-left: -10px;
         opacity: 0;
         vertical-align: middle;
@@ -347,8 +348,8 @@ body {
       top: 100%;
       left: 50%;
       transform: translateX(-50%);
-      display: block;
-      font-family: FontAwesome;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
       content: "\f0d7";
       margin: 10px 5px;
       font-size: 60px;

@@ -21,14 +21,13 @@
   border-radius: 0 10px 10px 0;
 
   &:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     content: "\f0a4";
-    display: inline-block;
     line-height: 40px;
     position: absolute;
     color: white;
     background: #ffa337;
-    font-weight: normal;
+    font-weight: 900;
     font-size: 24px;
     width: 48px;
     text-align: center;
@@ -97,4 +96,56 @@
   background-color: $main-color;
   color: #fff;
   border-radius: 3px;
+}
+
+// ================ tel-number =================
+section.tel-number {
+  font-size: 14px;
+  margin: 10px;
+
+  a {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    border: $main-color 1px solid;
+
+    &:hover {opacity: 0.7;}
+
+    p {
+      letter-spacing: 0.1em;
+    }
+
+    p.title {
+      font-size: 16px;
+      color: #fff;
+      background-color: $main-color;
+      line-height: 2;
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: .1em;
+      }
+    }
+
+    p.mobile {
+      font-size: 20px;
+      line-height: 2;
+      font-weight: bold;
+    }
+
+    p.number {
+      font-size: 28px;
+      font-weight: bold;
+      color: rgb(200, 0, 0);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    p.time {
+      font-weight: bold;
+    }
+  }
 }

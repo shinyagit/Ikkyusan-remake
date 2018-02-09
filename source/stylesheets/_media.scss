@@ -12,6 +12,19 @@
     display: none;
   }
 
+  section.tel-number {
+    display: flex;
+    margin: 0;
+
+    a {
+      margin: 10px;
+    }
+
+    p.mobile {display: none;}
+    p.number {line-height: 2;}
+    // p.number svg {display: none;}
+  }
+
   .schedule-wrap {
     margin-top: 20px;
   }
@@ -79,6 +92,12 @@
   }
 
   #side-bar object {display: none;}
+
+  .staff-wrap .profile-card {
+    display: flex;
+
+    .left {border-right: 2px dotted rgba(0, 0, 0, 0.2);}
+  }
 }
 
 @media screen and (min-width: 899px) {
