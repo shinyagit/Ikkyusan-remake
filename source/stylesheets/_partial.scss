@@ -97,6 +97,10 @@
   height: 300px;
   margin: 0 auto;
   background-color: #fff;
+  // NOTE: 本番では消す
+  background-image: url(/images/top-page/vegas/sample.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 // ================= drawer ========================

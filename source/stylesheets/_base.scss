@@ -158,6 +158,10 @@ body {
       margin: 0 auto;
       background-color: #fff;
       box-shadow: 2px 3px 4px -2px rgba(0, 0, 0, 0.3);
+      // NOTE: 本番では消す
+      background-image: url(/images/top-page/vegas/cat.jpg);
+      background-size: cover;
+      background-position: center;
     }
 
     p {
@@ -213,6 +217,10 @@ body {
     width: 100%;
     height: 200px;
     border-radius: 5px;
+    // NOTE: 本番では消す
+    background-image: url(/images/top-page/vegas/cat.jpg);
+    background-size: cover;
+    background-position: center;
   }
 }
 
