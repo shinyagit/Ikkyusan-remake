@@ -62,8 +62,8 @@ end
 
 # デプロイの設定
 # 今回は gh-pages を使用するので branch に 'gh-pages' を設定する
-# activate :deploy do |deploy|
-#   deploy.build_before = true
-#   deploy.deploy_method = :git
-#   deploy.branch = 'gh-pages'
-# end
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :heroku
+  deploy.branch = 'heroku'
+end
