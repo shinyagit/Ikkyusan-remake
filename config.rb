@@ -56,7 +56,7 @@ configure :build do
   # のようになる
   # activate :asset_host, :host => "/your_repository_name"
   # これは必要か不明
-  # set :relative_links, true
+  set :relative_links, true
 end
 
 
