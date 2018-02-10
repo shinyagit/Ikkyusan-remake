@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .container {
-  padding: 5px 10px 5px 20px;
+  padding: 5px 20px;
   margin-bottom: 20px;
   font-size: 12px;
   letter-spacing: .1em;
@@ -100,12 +100,14 @@
 
 // ================ tel-number =================
 section.tel-number {
+  display: block;
   font-size: 14px;
   margin: 10px;
 
   a {
     display: block;
     width: 100%;
+    max-width: 350px;
     margin: 10px auto;
     color: #333;
     text-decoration: none;
