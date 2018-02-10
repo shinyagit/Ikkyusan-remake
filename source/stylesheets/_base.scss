@@ -10,54 +10,6 @@ body {
   margin-top: 20px;
 }
 
-// ================== reserved wrap ===============
-.reserved-wrap {
-  padding: 10px;
-
-  a {
-    color: #333;
-    text-decoration: none;
-    padding-right: 10px;
-    text-align: right;
-  }
-
-  .reserved {
-    position: relative;
-    width: 270px;
-    margin: 0 auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 5px 15px;
-    background: -webkit-gradient(to bottom, #fff 0%, #ddd 100%);
-    background: -webkit-linear-gradient(to bottom, #fff 0%, #ddd 100%);
-    background: linear-gradient(to bottom, #fff 0%, #ddd 100%);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
-
-    &:hover {
-      opacity: 0.7;
-    }
-
-    p {
-      font-size: 12px;
-      letter-spacing: .1em;
-    }
-
-    span {
-      font-size: 20px;
-      font-weight: bold;
-      color: rgb(200, 0, 0);
-    }
-
-    .fa-reserved {
-      position: absolute;
-      top: -10px;
-      left: -5px;
-      font-size: 80px;
-      transform: rotateZ(-30deg);
-    }
-  }
-}
-
 // ================== schedule wrap ===============
 .schedule-wrap {
   margin-bottom: 40px;
@@ -93,7 +45,7 @@ body {
       border-radius: 5px;
 
       th, td {
-        font-size: 12px;
+        font-size: 14px;
         vertical-align: middle;
         text-align: center;
         padding: 4px 6px;
@@ -101,6 +53,7 @@ body {
 
       th {
         border-right: 1px solid $main-color;
+        font-weight: bold;
         &:last-child {
           border-right: none;
         }
@@ -178,6 +131,7 @@ body {
 // ====================== point =======================
 
 .points-wrap {
+  padding-bottom: 30px;
 
   p {
     padding-left: 1em;
@@ -190,15 +144,16 @@ body {
   padding-top: 15px;
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     margin: 0 20px 15px 10px;
     padding-bottom: 5px;
     border-bottom: 2px dotted #4a4a4a;
 
-    span {
-      font-size: inherit;
-      font-size: 20px;
+    svg {
+      font-size: 18px;
+      color: $attention-color;
+      font-weight: 300;
     }
   }
 }

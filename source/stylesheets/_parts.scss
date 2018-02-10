@@ -22,17 +22,17 @@
 
   &:before {
     font-family: "Font Awesome 5 Free";
+    font-weight: 300;
     content: "\f0a4";
     line-height: 40px;
     position: absolute;
     color: white;
     background: #ffa337;
-    font-weight: 900;
     font-size: 24px;
     width: 48px;
     text-align: center;
     height: 48px;
-    left: -40px;
+    left: -35px;
     top: 50%;
     -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
