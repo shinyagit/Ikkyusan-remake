@@ -75,6 +75,15 @@ body {
 .accident-wrap {
   padding-bottom: 40px;
 
+  .caution {
+    padding: 20px 0;
+
+    span {
+      font-weight: bold;
+      line-height: 2;
+    }
+  }
+
   .detail {
     display: inline-block;
     color: $attention-color;
