@@ -3,7 +3,7 @@
 .container {
   padding: 5px 20px;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: .1em;
 }
 
@@ -98,6 +98,23 @@
   border-radius: 3px;
 }
 
+// ================== headding-e ==============
+.headding-e {
+  padding: 3px 20px;
+  margin: 20px 0 20px 10px;
+  border: 2px solid teal;
+  color: teal;
+  font-size: 1.5em;
+}
+
+.headding-f {
+  padding: 10px 10px 3px;
+  margin: 0 20px;
+  font-weight: bold;
+  color: $main-color;
+  border-bottom: 1px solid $main-color;
+
+}
 // ================ tel-number =================
 section.tel-number {
   display: block;

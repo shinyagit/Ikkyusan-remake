@@ -48,3 +48,38 @@
     }
   }
 }
+
+.treatment-pickup {
+  ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    &.circle {
+
+      li {
+        font-weight: bold;
+        color: $main-color;
+      }
+    }
+    &.check-list {
+      font-size: 18px;
+
+      li {
+        font-weight: normal;
+      }
+    }
+
+    li {
+      margin-bottom: 5px;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  p {
+    padding: 0 0 0 20px;
+    margin-bottom: 10px;
+    line-height: 2;
+  }
+}

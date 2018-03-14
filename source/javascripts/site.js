@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   $("#header-slide").vegas({
     delay: 6000,
-    transition: 'slideRight2',
+    // transition: 'slideRight2',
     slides: [
         { src: "/images/top-page/vegas/sample.jpg" },
         { src: "/images/top-page/vegas/cat.jpg" }

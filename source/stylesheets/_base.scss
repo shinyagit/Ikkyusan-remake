@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: YuGothicM;
+  src: local("Yu Gothic Medium");
+}
+
 body {
   background-image: url(/images/gplaypattern.png);
   background-attachment: fixed;
+  font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
 }
 
 #top-page {
@@ -113,14 +119,17 @@ body {
 .introduction {
 
   .container {
+    max-width: 600px;
+    margin: 0 auto;
 
     .intro-img {
       padding: 20px;
-      max-width: 400px;
+      // max-width: 400px;
       height: 200px;
       margin: 0 auto;
       background-color: #fff;
-      box-shadow: 2px 3px 4px -2px rgba(0, 0, 0, 0.3);
+      border-radius: 5px 5px 0 0;
+      // box-shadow: 2px 3px 4px -2px rgba(0, 0, 0, 0.3);
       // NOTE: 本番では消す
       background-image: url(/images/top-page/vegas/cat.jpg);
       background-size: cover;
@@ -128,10 +137,14 @@ body {
     }
 
     p {
-      padding: 20px;
+      // max-width: 400px;
+      margin: 0 auto;
+      padding: 10px 10px 20px;
       text-align: justify;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 1.8;
+      background-color: #eee;
+      border-radius: 0 0 5px 5px;
     }
   }
 }
@@ -288,7 +301,7 @@ body {
 
   .flow-box{
     position: relative;
-    width: 200px;
+    width: 220px;
     margin: 0 auto 60px;
 
     p {

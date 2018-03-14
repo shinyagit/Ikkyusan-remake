@@ -5,28 +5,29 @@
     <div class="menu-headding">メインメニュー</div>
     <ul>
       <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> ホーム<% end %></li>
-      <li><% link_to "#{config[:root]}/accident/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 交通事故対応<% end %></li>
+      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 東雲店<% end %></li>
+      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 宇品店<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/accident/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 交通事故対応<% end %></li>
       <!-- <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 東雲店詳細ページ<% end %></li> -->
       <!-- <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 宇品店詳細ページ<% end %></li> -->
-      <li><% link_to "#{config[:root]}/treatment/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 施術メニュー・料金<% end %></li>
-      <li><% link_to "#{config[:root]}/access/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> ご予約・アクセス<% end %></li>
-      <li><% link_to "#{config[:root]}/staff/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> スタッフ紹介<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/treatment/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 施術メニュー・料金<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/access/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> ご予約・アクセス<% end %></li>
+      <!-- <li><% link_to "#{config[:root]}/contents/staff/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> スタッフ紹介<% end %></li> -->
       <!-- <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 採用情報<% end %></li> -->
     </ul>
   </div>
 
   <%# TODO: 症状と施術の内容が提出されたらページとともに実装 %>
-  <!-- <div class="menu-box">
-    <div class="menu-headding">症状別メニュー</div>
+  <div class="menu-box">
+    <div class="menu-headding">ピックアップ施術メニュー</div>
     <ul>
-      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> メニュー1<% end %></li>
-      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> メニュー2<% end %></li>
-      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> メニュー3<% end %></li>
-      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> メニュー4<% end %></li>
-      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> メニュー5<% end %></li>
-      <li><% link_to "#{config[:root]}/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> メニュー6<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/treatment/ems/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> EMS(楽トレ)<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/treatment/footoil/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> フットオイル<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/treatment/kotsuban/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 骨盤矯正<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/treatment/nekoze/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 猫背矯正<% end %></li>
+      <li><% link_to "#{config[:root]}/contents/treatment/bigan/" do %><span class="fa fa-arrow-circle-right" aria-hidden="true"></span> 美顔鍼<% end %></li>
     </ul>
-  </div> -->
+  </div>
 
   <%# TODO: エキテンを載せるか議論してから実装 %>
   <!-- <div class="menu-box">
