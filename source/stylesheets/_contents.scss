@@ -2,7 +2,7 @@
 
 #contents-part {
   flex: 1;
-  margin-top: 20px;
+  padding-top: 10px;
 }
 
 .staff-wrap {
@@ -81,5 +81,52 @@
     padding: 0 0 0 20px;
     margin-bottom: 10px;
     line-height: 2;
+  }
+}
+
+// ============= 東雲店・宇品店 ================
+.shop {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  p {margin-top: 50px;text-align: center;font-weight: bold;font-size: 3rem;}
+
+  .caution {display: block;padding-bottom: 20px;font-weight: bold;}
+}
+
+.insurance, .treatment-menu {
+
+  small {display: inline-block; padding: 10px 10px 5px; font-weight: bold;border-bottom: dashed 2px #333;}
+
+  .fee-area {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    div {
+      height: 3rem;
+      line-height: 3rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .ten {
+      flex: 1 10%;
+      text-align: center;
+    }
+
+    .other {
+      flex: 1 30%;
+      text-align: center;
+    }
+
+    .quarter {
+      flex: 1 25%;
+      text-align: center;
+    }
+
+    .half {
+      flex: 1 50%;
+      text-align: center;
+    }
   }
 }

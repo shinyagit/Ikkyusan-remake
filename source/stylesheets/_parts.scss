@@ -10,7 +10,7 @@
 // ===================== headding-a =======================
 .headding-a {
   line-height: 2;
-  margin: 20px 5px 10px 40px;
+  margin: 20px 20px 20px 40px;
   position: relative;
   background: #ffd98a;
   padding: 2px 5px 2px 25px;
@@ -114,6 +114,23 @@
   color: $main-color;
   border-bottom: 1px solid $main-color;
 
+}
+
+.headding-g {
+  padding: .5em;
+  margin-bottom: 15px;
+  color: #333;
+  background: rgba($main-color, .1);
+  border-left: solid 5px $main-color;
+  font-weight: bold;
+}
+
+.heading-h {
+  display: table;
+  padding: .3em;
+  border: 2px solid $sub-color;
+  font-weight: bold;
+  letter-spacing: .1em;
 }
 // ================ tel-number =================
 section.tel-number {
