@@ -19,14 +19,14 @@ $(document).ready(function(){
     $("#drw-layer").toggleClass('cover');
   });
 
-  $("#header-slide").vegas({
-    delay: 6000,
-    // transition: 'slideRight2',
-    slides: [
-        { src: "/images/top-page/vegas/sample.jpg" },
-        { src: "/images/top-page/vegas/cat.jpg" }
-    ]
-  });
+  // $("#header-slide").vegas({
+  //   delay: 6000,
+  //   // transition: 'slideRight2',
+  //   slides: [
+  //       { src: "/images/top-page/vegas/top_image_1.JPG" },
+  //       { src: "/images/top-page/vegas/top_image_2.JPG" }
+  //   ]
+  // });
 
   $("#about-slide").vegas({
     delay: 6000,

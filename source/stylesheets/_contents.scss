@@ -50,6 +50,8 @@
 }
 
 .treatment-pickup {
+
+  padding-top: 10px;
   ul {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -78,7 +80,7 @@
     }
   }
   p {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
     margin-bottom: 10px;
     line-height: 2;
   }
@@ -104,8 +106,8 @@
     flex-wrap: wrap;
     padding-bottom: 30px;
     div {
-      height: 3rem;
-      line-height: 3rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
       border-bottom: 1px solid #ddd;
     }
 
@@ -128,5 +130,44 @@
       flex: 1 50%;
       text-align: center;
     }
+
+    .no-under {border-bottom: none;}
   }
 }
+
+// ================= image ==================
+.image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+.image-small {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 220px;
+}
+.bigan-image {background-image: url(/images/main/biganshin.JPG);}
+.ems-image {background-image: url(/images/main/ems.JPG);}
+.footoil-image {background-image: url(/images/main/foot_oil.JPG);}
+.kotsuban-image {background-image: url(/images/main/kotsuban.JPG);}
+.kotsuban-exp-1-image {background-image: url(/images/main/kotsuban_exp_1.png);}
+.biganshin-exp-1-image {background-image: url(/images/main/biganshin_exp_1.png);}
+.biganshin-exp-2-image {background-image: url(/images/main/biganshin_exp_2.png);}
+.biganshin-exp-3-image {background-image: url(/images/main/biganshin_exp_3.png);}
+.nekoze-image {background-image: url(/images/main/nekoze_1.JPG);}
+.nekoze-exp-1-image {background-image: url(/images/main/nekoze_exp_1.png);}
+
+.shop-image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.shop-image.shinonome {background-image: url(/images/main/shinonome.JPG);}
+.shop-image.ujina {background-image: url(/images/main/ujina.JPG);}

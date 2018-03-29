@@ -122,16 +122,19 @@ body {
     max-width: 600px;
     margin: 0 auto;
 
+    .intro-img.shinonome {background-image: url(/images/main/shinonome_director.JPG);}
+    .intro-img.ujina {background-image: url(/images/main/ujina_director.JPG);}
+
     .intro-img {
       padding: 20px;
       // max-width: 400px;
-      height: 200px;
+      height: 250px;
       margin: 0 auto;
       background-color: #fff;
       border-radius: 5px 5px 0 0;
       // box-shadow: 2px 3px 4px -2px rgba(0, 0, 0, 0.3);
       // NOTE: 本番では消す
-      background-image: url(/images/top-page/vegas/cat.jpg);
+      // background-image: url(/images/top-page/vegas/cat.jpg);
       background-size: cover;
       background-position: center;
     }
@@ -143,7 +146,7 @@ body {
       text-align: justify;
       font-size: 16px;
       line-height: 1.8;
-      background-color: #eee;
+      background-color: rgba($main-color, .1);
       border-radius: 0 0 5px 5px;
     }
   }
@@ -345,9 +348,16 @@ body {
     height: 150px;
     margin: 5px auto 5px;
     border-radius: 5px;
-    background-color: rgb(180, 255, 204);
+    background-color: rgba($main-color, .2);
+    background-position: center;
+    background-size: cover;
   }
 }
+
+.flow-img.flow-1 {background-image: url(/images/main/flow_1.JPG);}
+.flow-img.flow-2 {background-image: url(/images/main/flow_2.JPG);}
+.flow-img.flow-3 {background-image: url(/images/main/flow_3.JPG);}
+.flow-img.flow-4 {background-image: url(/images/main/flow_4.JPG);}
 
 // ================ twitter =================
 .twitter-follow-button {
