@@ -153,6 +153,10 @@ body {
       border-radius: 0 0 5px 5px;
     }
   }
+
+  .container + .container {
+    margin-top: 20px;
+  }
 }
 
 
@@ -399,7 +403,7 @@ body {
       width: 300px;
       padding: 30px 10px 10px;
       background-color: #eee;
-      font-size: 12px;
+      font-size: 14px;
 
       &::before {
         position: absolute;
