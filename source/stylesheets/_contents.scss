@@ -106,9 +106,14 @@
     flex-wrap: wrap;
     padding-bottom: 30px;
     div {
-      height: 2.5rem;
+      font-size: 14px;
+      font-weight: bold;
+      min-height: 2.5rem;
       line-height: 2.5rem;
       border-bottom: 1px solid #ddd;
+    }
+    div {
+      border-left: 1px dashed #ddd;
     }
 
     .ten {

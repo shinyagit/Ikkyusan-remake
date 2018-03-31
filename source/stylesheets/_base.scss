@@ -20,6 +20,9 @@ body {
 .schedule-wrap {
   margin-bottom: 40px;
 
+  .schedule + .schedule {
+    margin-top: 20px;
+  }
   .schedule {
     padding: 5px;
 
@@ -37,7 +40,7 @@ body {
     span {
       line-height: 1;
       padding-left: 10px;
-      font-size: 10px;
+      font-size: 14px;
     }
 
     table {
