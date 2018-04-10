@@ -105,15 +105,16 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 30px;
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
     div {
       font-size: 14px;
       font-weight: bold;
       min-height: 2.5rem;
       line-height: 2.5rem;
       border-bottom: 1px solid #ddd;
-    }
-    div {
       border-left: 1px dashed #ddd;
+      border-right: 1px dashed #ddd;
     }
 
     .ten {
@@ -135,6 +136,8 @@
       flex: 1 50%;
       text-align: center;
     }
+
+    .memo {flex: 1 100%;text-align: center;font-size: inherit;}
 
     .no-under {border-bottom: none;}
   }
