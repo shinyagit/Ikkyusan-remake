@@ -48,7 +48,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 
-  config[:root] = "/reponame"
+  config[:root] = ""
 
   # リポジトリ名を host に設定しておく
   # こうすることで stylesheet_link_tag などで展開されるパスが
