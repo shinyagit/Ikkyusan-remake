@@ -23,10 +23,8 @@ $(document).ready(function(){
     delay: 6000,
     // transition: 'slideRight2',
     slides: [
-        // { src: "/images/top-page/vegas/top_image_1.JPG" },
-        { src: "/images/top-page/vegas/top_image_2.JPG" },
-        { src: "/images/top-page/vegas/top-slide-img-02.png" },
-        { src: "/images/top-page/vegas/top-slide-img-03.png" },
+        { src: "/images/top-page/vegas/top_slide_image_04.jpg" },
+        { src: "/images/top-page/vegas/top_slide_img_04.jpg" },
     ]
   });
 
