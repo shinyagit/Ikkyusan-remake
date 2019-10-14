@@ -3,7 +3,10 @@ title: 施術メニュー
 ---
 
 <div id="contents-part">
-  <h2 class="headding-a">施術メニュー・料金</h2>
+
+  <%= partial "partial/shinonome-price" %>
+  
+  <%# <h2 class="headding-a">【東雲店】施術メニュー・料金</h2>
   <section class="shop">
     <h3 class="headding-g">東雲店</h3>
     <div class="head-image shinonome"></div>
@@ -38,7 +41,11 @@ title: 施術メニュー
         <div class="memo no-under">※ 回数券あります</div>
       </div>
     </div>
+  </section> %>
 
+  <%= partial "partial/ujina-price" %>
+
+  <%# <section class="shop">
     <h3 class="headding-g">宇品店</h3>
     <div class="head-image shinonome"></div>
     <div class="insurance">
@@ -108,5 +115,5 @@ title: 施術メニュー
 
     <small>注意：回数券の再発行・払い戻しはできませんので、ご了承ください。</small>
 
-  </section>
+  </section> %>
 </div>
