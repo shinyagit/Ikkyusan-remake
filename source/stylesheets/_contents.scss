@@ -201,10 +201,12 @@ section + section {
 .shop-image {
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: calc(100%-40px);
+  margin-left: 20px;
+  margin-right: 20px;
   height: 300px;
   margin-bottom: 20px;
 }
 
-.shop-image.shinonome {background-image: url(/images/main/shinonome.jpg);}
+.shop-image.shinonome {background-image: url(/images/main/shinonome_new_3.jpg);}
 .shop-image.ujina {background-image: url(/images/main/ujina.jpg);}
